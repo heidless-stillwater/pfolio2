@@ -6,4 +6,5 @@ from . import settings
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('other/', include('other.urls')),
+    path('shorten/', include('other.urls')),
 ]
