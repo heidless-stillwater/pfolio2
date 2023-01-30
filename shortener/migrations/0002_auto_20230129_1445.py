@@ -6,7 +6,7 @@ from django.db import migrations
 class Migration(migrations.Migration):
 
     dependencies = [
-        ('Shortener', '0001_initial'),
+        ('shortener', '0001_initial'),
     ]
 
     operations = [
